@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>PortfolioFornaroliFuhrFacundo</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init('6lKbBFdD3x-Qtcvto'); // Reemplaza 'YOUR_PUBLIC_KEY' con tu clave pública correcta
+        })();
+    </script>
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Facundo</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/Foto Curriculum 1.jpg" alt="">
+            </div>
+            <h1>Facundo Fornaroli</h1>
+            <h2>Estudiante de Data Science</h2>
+            <h2>Estudiante de Tecnicatura en Administracion</h2>
+            <h2>Estudiante avanzado de Ingenieria en Automatizacion</h2>
+            <div class="redes">
+                <a href="https://www.instagram.com/facu_forna/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/FacundoFornaroli"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/facundo-fornaroli-fuhr-02aa3121a"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, Soy Facundo Fornaroli Fuhr</span> Técnico en mantenimiento Electrónico y Avionico. Me estoy especializando en el entorno de Business intelligence, estudiando Data Science y Data Analyst. Trabajando en proyectos con Power BI, Redes neuronales de ia, Python, Excel y Bases de Datos (SQL Y SQLite). Mi objetivo es crear experiencias que generen valor para los usuarios y las empresas, aplicando siempre las mejores prácticas de Análisis, Ciencias de datos y Automatizaciones para solucionar problemas. Con inglés intermedio, tengo la capacidad de colaborar en equipos internacionales y participar en proyectos globales. Estoy abierto a nuevas oportunidades donde pueda seguir aprendiendo y aportar valor a través de la tecnología. ¡No dudes en contactarme si quieres charlar sobre proyectos, colaboraciones o simplemente conectar!</p>
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Fecha de Nacimiento</strong>
+                            12-12-2000
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +54 11 6118 2993
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            fornarolifuhrfacundo@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.example.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Quilmes, Buenos Aires, Argentina
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Estudiante en Desarrollo</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- certificados -->
+                <div class="col">
+                    <h3>Certificados</h3>
+                    <div class="contenedor-certificados">
+                        <div class="certificado">
+                            <a href="Certificados/Certificado1.pdf" target="_blank">
+                                <img src="img/Certificacionlog.png" alt="Certificado 1">
+                            </a>
+                            <span>Introduccion a SQL y Bases de Datos</span>
+                        </div>
+                        <div class="certificado">
+                            <a href="Certificados/Certificado2.pdf" target="_blank">
+                                <img src="img/Certificacionlog.png" alt="Certificado 2">
+                            </a>
+                            <span>Introduccion a Python</span>
+                        </div>
+                        <div class="certificado">
+                            <a href="ruta/a/tu-certificado3.pdf" target="_blank">
+                                <img src="img/Certificacionlog.png" alt="Certificado 3">
+                            </a>
+                            <span>Certificado 3</span>
+                        </div>
+                        <div class="certificado">
+                            <a href="ruta/a/tu-certificado4.pdf" target="_blank">
+                                <img src="img/Certificacionlog.png" alt="Certificado 4">
+                            </a>
+                            <span>Certificado 4</span>
+                        </div>
+                        <div class="certificado">
+                            <a href="ruta/a/tu-certificado5.pdf" target="_blank">
+                                <img src="img/Certificacionlog.png" alt="Certificado 5">
+                            </a>
+                            <span>Certificado 5</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                <a href="CV-FornaroliFuhrFacundo.pdf" download="CV_Facundo_Fornaroli.pdf" class="download-cv">
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </a>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skills -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <img src="https://img.icons8.com/color/48/power-bi-2021.png" alt="Power BI">
+                        <span>Power BI</span>
+                    </div>
+                    <div class="skill">
+                        <img src="img/html5.svg" alt="Html">
+                        <span>HTML</span>
+                    </div>
+                    <div class="skill">
+                        <img src="img/openai.svg" alt="openai">
+                        <span>Openai</span>
+                    </div>
+                    <div class="skill">
+                        <img src="img/python.png" alt="Python">
+                        <span>Python</span>
+                    </div>
+                    <div class="skill">
+                        <img src="img/sqlite.svg" alt="SQLite">
+                        <span>SQLite</span>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <img src="img/Hablar.png" alt="Comunicación">
+                        <span>Comunicación</span>
+                    </div>
+                    <div class="skill">
+                        <img src="img/teamwork.png" alt="Trabajo en Equipo">
+                        <span>Trabajo en Equipo</span>
+                    </div>
+                    <div class="skill">
+                        <img src="img/creatividad.png" alt="Creatividad">
+                        <span>Creatividad</span>
+                    </div>
+                    <div class="skill">
+                        <img src="img/dedicacion.png" alt="Dedicación">
+                        <span>Dedicación</span>
+                    </div>
+                    <div class="skill">
+                        <img src="img/innovacion.png" alt="Pensamiento Innovador">
+                        <span>Pensamiento Innovador</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4> INGENIERIA EN AUTOMATIZACION Y CONTROL INDUSTRIAL</h4>
+                        <span class="casa">Universidad Nacional de Quilmes</span>
+                        <span class="fecha">2020 - En curso</span>
+                        <p>Control de Procesos Industriales, Programación de PLCs y SCADA, Sistemas Embebidos y Microcontroladores, Instrumentación y Sensores, Mantenimiento Predictivo y Gestión de Fallas, Robótica y Visión Artificial, Optimización de Procesos.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4> TECNICATURA EN ADMINISTRACION</h4>
+                        <span class="casa">Universidad Nacional Tecnológica</span>
+                        <span class="fecha">2025 - En curso</span>
+                        <p>Gestión Administrativa y Operativa, Contabilidad y Finanzas Básicas, Gestión de Recursos Humanos, Comercio y Marketing, Normativa y Legislación Empresarial, Tecnologías Aplicadas a la Administración.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>CARRERA DATA SCIENCE</h4>
+                        <span class="casa">Educacion IT</span>
+                        <span class="fecha">2024 - En curso</span>
+                        <p>Programación, stadística y Matemáticas Aplicadas, Machine Learning e Inteligencia Artificial, Manejo de Bases de Datos, Big Data y Computación en la Nube, Visualización de Datos.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Tecnico de Laboratorio</h4>
+                        <span class="casa">Logitec S.A</span>
+                        <span class="fecha">2023 - Actualmente</span>
+                        <p>Mantenimiento preventivo, Diagnóstico de fallos, Reparación y sustitución de componentes, Soporte y asesoría técnica, Actualización de software y firmware.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Barman</h4>
+                        <span class="casa">Blend Bar Pub</span>
+                        <span class="fecha">2019 - 2019</span>
+                        <p>Preparación y servicio de bebidas, Atención al cliente, Manejo de la caja y cobro.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Barmanager</h4>
+                        <span class="casa">Santa Cruz Eventos</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Supervisión del personal del bar, Gestión de inventarios y suministros, Garantizar la calidad del servicio, Cumplimiento de normas y regulaciones.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <a href="https://github.com/FacundoFornaroli/Pagina-Web-Mi-Portfolio" target="_blank">
+                    <img src="img/Proyecto1.png" alt="">
+                    <div class="overlay">
+                        <h3>Pagina Web</h3>
+                        <p>HTML, CSS y JS</p>
+                    </a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <a href="https://github.com/FacundoFornaroli/Facturitas" target="_blank">
+                    <img src="img/Proyecto2.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <form id="contact-form">
+                        <input type="text" name="user_name" placeholder="Tú Nombre" required>
+                        <input type="text" name="user_phone" placeholder="Número telefónico" required>
+                        <input type="email" name="user_email" placeholder="Dirección de correo" required>
+                        <input type="text" name="subject" placeholder="Tema" required>
+                        <textarea name="message" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+                        <button type="submit">
+                            Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </form>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion2.jpeg" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Quilmes, Buenos Aires, Argentina, B1878
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamame: +54 11 6118 2993 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: fornarolifuhrfacundo@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.instagram.com/facu_forna/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/FacundoFornaroli"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/facundo-fornaroli-fuhr-02aa3121a"><i class="fa-brands fa-linkedin-in"></i></a>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
